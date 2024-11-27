@@ -1,0 +1,40 @@
+Dificultad:
+    Fácil: Matriz de 8 filas por 8 columnas, con 10 minas.
+    Medio: Matriz de 16 filas por 16 columnas, con 40 minas.
+    Difícil: Matriz de 16 filas por 30 columnas, con 100 minas.
+
+C. Crear una pantalla de inicio, con cuatro (4) botones:
+Nivel
+Jugar
+Ver Puntajes
+Salir
+
+E. Al comenzar el juego:
+Se deberá imprimir el Puntaje en 0000.
+
+F. Al descubrir un casillero:
+Si no hay una mina en el casillero se sumara 1 (un) punto.
+
+H. Antes de comenzar o una vez terminado el juego se deberá pedir el nombre al usuario (Nick),
+guardar ese nombre con su puntaje en un archivo, y volver a la pantalla de inicio.
+
+I. Al ingresar a la pantalla inicial y hacer clic en el botón Ver Puntajes, se deberá mostrar los 3
+(tres) mejores puntajes ordenados de mayor a menor, junto con su nombre de usuario (Nick)
+correspondiente. Debe haber un (1) botón para volver al menú principal.
+
+
+
+OPCIONALES:
+
+Nivel de dificultad.
+
+o Al descubrir un casillero:
+    Reproducir un sonido de casillero sin mina.
+    Reproducir un sonido (podría ser una explosión) de casillero con mina.
+o borde rojo cuando clickeas primera bomba
+
+
+
+DOCUMENTAR TODAS LAS FUNCIONES Y CAMBIAR SUS NOMBRES CORRESPONDIENTEMENTE
+
+El formato del archivo que se debe crear para guardar puntaje y nick tiene que ser TXT, CSV o JSON.
